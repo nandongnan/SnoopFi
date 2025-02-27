@@ -76,13 +76,13 @@ numm = 100
 
 
 data1File = scio.loadmat('data of position1')
-data2File = scio.loadmat('data of position1')
-data3File = scio.loadmat('data of position1')
-data4File = scio.loadmat('data of position1')
-data5File = scio.loadmat('data of position1')
-data6File = scio.loadmat('data of position1')
-data7File = scio.loadmat('data of position1')
-data8File = scio.loadmat('data of position1')
+data2File = scio.loadmat('data of position2')
+data3File = scio.loadmat('data of position3')
+data4File = scio.loadmat('data of position4')
+data5File = scio.loadmat('data of position5')
+data6File = scio.loadmat('data of position6')
+data7File = scio.loadmat('data of position7')
+data8File = scio.loadmat('data of position8')
 
 
 local1_data = abs(data1File['merged_p'].transpose())[:100,:]
